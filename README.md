@@ -1,0 +1,1 @@
+This is a drum kit web application that uses basic vanilla javascript. This is inspired by Wes Bos' Javascript30 challenge series of exercises. This application replicates exercise 1 of the series.
