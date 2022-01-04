@@ -14,12 +14,30 @@ body {
 
 .flex-row {
     display: flex;
-    width: 80vw;
+    width: 50vw;
     justify-content: space-between;
     padding-block: 2rem;
 }
 
 .play-sound {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+    height: 5vw;
+    max-width: 5vw;
+    border: 0.2rem solid red;
+    transition: all 0.08s;
+}
+
+.playing {
+    transform: scale(1.1);
+    border: 0.3rem solid blue;
+    background-color: black;
+    color: white;
+}
+
+p {
+    font-size: min(80%, 1rem);
 }
