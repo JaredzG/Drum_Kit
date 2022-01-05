@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url('images/background.jpg');
 }
 
 .flex-row {
@@ -29,13 +30,16 @@ body {
     max-width: 5vw;
     border: 0.2rem solid red;
     transition: all 0.08s;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 0.5rem;
 }
 
 .playing {
     transform: scale(1.1);
     border: 0.3rem solid blue;
     background-color: black;
-    color: white;
+    color: gold;
 }
 
 p {
